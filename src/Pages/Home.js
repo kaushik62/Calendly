@@ -4,6 +4,7 @@ import '../index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMedal, faNoteSticky, faUserGroup, faCommentDots } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import GoogleCalendar from '../Calender';
 
 function Home() {
     return (
@@ -36,7 +37,7 @@ function Home() {
 
                 <div className="cards_display">
                     {mentors.map((v, i) => {
-                        
+
                         return (
                             <Cards mentors={v} key={i} />
                         )
@@ -94,7 +95,7 @@ function Cards({ mentors }) {
                     <img src={mentors.image} alt="Profile Photo" className="profile-photo" />
 
                     {/* <img src={require("../images/footer-illustration.webp")} alt="footerimg" className="profile-photo"/> */}
-                    
+
                     <div className="profile-details">
                         <h2 className="name">{mentors.mentorsName}</h2>
                         <p className="designation">Senior Developer</p>
