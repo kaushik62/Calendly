@@ -1,0 +1,144 @@
+.login_ssignup_container{
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+}
+.loginImage{
+  background-color: rgba(70, 123, 255, 0.816) ;
+  width: 380px;
+  color: white;
+  background-image: url(./images/hero-pattern.svg);
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  place-items: center;
+  padding: 3.5%;
+  padding-top: 10%;
+  justify-content: center;
+  border-radius: 40px 0 0 5px;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
+}
+.LoginClosebtn{
+  position: relative;
+  top: 0;
+}
+.sign_in_up_close_btn {
+  position: absolute;
+  right: 7%;
+  top: 4%;
+  color: rgb(7, 102, 236);
+  font-size:  50px;
+}
+.form_container {
+  width: 380px;
+  border-radius: 0 5px 40px 0;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  /* background-color: skyblue; */
+  padding: 30px;
+}
+.form_container h3 {
+  font-size: 25px;
+  color: rgb(0, 33, 151);
+  letter-spacing: 1px;
+  margin: 5px 0px 20px 0px;
+  font-family: "Roboto", sans-serif;
+}
+.form_container p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0px 5px 0px;
+}
+.form_container input {
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+#login {
+  background-color: orange;
+  font-size: 21px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-top: 50px;
+  padding: 10px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#login:active {
+  background-color: rgb(255, 194, 82);
+  transform: scale(1.02);
+}
+.form_container span {
+  color: rgb(10, 70, 198);
+  font-size: 24px;
+  cursor: pointer;
+}
+#google_signup {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 9px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+  position: relative;
+  background-color: #4081ec;
+}
+#google_signup img {
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+  position: absolute;
+  left: 10px;
+  bottom: 4px;
+  align-items: center;
+}
+
+#incorrect_user {
+  color: red;
+  position: absolute;
+  text-align: center;
+  left: 80px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+  animation: danger_success_animation 0.3s linear;
+  display: none;
+}
+
+#logged_successfully {
+  color: green;
+  position: absolute;
+  left: 100px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+  animation: danger_success_animation 0.3s linear;
+  display: none;
+}
+
+@keyframes danger_success_animation {
+  0% {
+    transform: scale(0.1);
+  }
+
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

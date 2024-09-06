@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71f7f60c.css",
+    "main.js": "/static/js/main.b8d49d01.js",
+    "static/media/3.svg": "/static/media/3.93ca92f2c3a10dd1b273.svg",
+    "static/media/jassi.jpg": "/static/media/jassi.b82d4037ef769066a4b9.jpg",
+    "static/media/5.svg": "/static/media/5.86d8c799bba4a0332147.svg",
+    "static/media/cuate.svg": "/static/media/cuate.53f75d20573e470637ea.svg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/11.svg": "/static/media/11.b53c72d8ce372ca8cb9f.svg",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/10.svg": "/static/media/10.9f26c893c6fea9289196.svg",
+    "static/media/kaushik.jpg": "/static/media/kaushik.e5a9eef8d885d52d32f0.jpg",
+    "static/media/rastogi.jpg": "/static/media/rastogi.885bdd9652765d43acaa.jpg",
+    "static/media/footer-illustration.webp": "/static/media/footer-illustration.00f8ef777bdf02be085f.webp",
+    "static/media/big-card-2.svg": "/static/media/big-card-2.87a1676677420b104817.svg",
+    "static/media/ujjwal.jpeg": "/static/media/ujjwal.22f7128f483873bbce3a.jpeg",
+    "static/media/bhumika mentog.jpg": "/static/media/bhumika mentog.f0fbc3aca5f9424017b6.jpg",
+    "static/media/users.jpg": "/static/media/users.96736236ddf314fea51a.jpg",
+    "static/media/goolge.webp": "/static/media/goolge.933f00cd8d7957e20f21.webp",
+    "static/media/hero-pattern.svg": "/static/media/hero-pattern.1d1286719ee18a848652.svg",
+    "index.html": "/index.html",
+    "main.71f7f60c.css.map": "/static/css/main.71f7f60c.css.map",
+    "main.b8d49d01.js.map": "/static/js/main.b8d49d01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71f7f60c.css",
+    "static/js/main.b8d49d01.js"
+  ]
+}
